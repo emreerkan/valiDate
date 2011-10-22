@@ -1,0 +1,19 @@
+valiDate 2.1
+http://www.karalamalar.net/
+
+Copyright (c) 2009 İzzet Emre Erkan
+Licensed under Creative Commons Attribution-Share Alike 3.0 Unported License
+http://creativecommons.org/licenses/by-sa/3.0/
+
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
+
+Date validation for any string object. If string object is a date string, function
+will parse string and return javascript date object, else it returns false. Currently
+it validates following date formats:
+
+dd/mm/yyyy
+dd.mm.yyyy
+dd mm yyyy
+dd-mm-yyyy
+
+--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--==--
