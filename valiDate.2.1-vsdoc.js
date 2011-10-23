@@ -9,6 +9,10 @@
  */
 String.prototype.valiDate =
   function () {
+    ///	<summary>
+    ///		Date validation for any string object.
+    ///	</summary>
+    ///	<returns type="Mixed" />
     if (/^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)[0-9]{2}$/.test(this)) {
       var v = this.replace(/[- /]/g, '.').split('.'),
         d = parseInt(v[0], 10),
